@@ -43,3 +43,4 @@ while True:
         break
     else:
         player_x, player_y = new_x, new_y
+
