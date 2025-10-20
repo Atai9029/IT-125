@@ -187,15 +187,15 @@ class Animal(ABC):
 
 class Lion(Animal):
     def eat(self):
-        return "Лев ест мясо"
+        return "Лев ест Ивано мясо"
     def sleep(self):
-        return "Лев спит в тени"
+        return "Лев спит в теньке"
 
 class Elephant(Animal):
     def eat(self):
         return "Слон ест растения"
     def sleep(self):
-        return "Слон спит стоя"
+        return "Слон спит стоя пхппххпх"
 
 class Snake(Animal):
     def eat(self):
@@ -315,15 +315,15 @@ class Designer:
 
 class FireSpell:
     def cast(self, target):
-        return f"{target}: наносит урон огнём"
+        return f"{target}: наносит фаер болл "
 
 class IceSpell:
     def cast(self, target):
-        return f"{target}: замораживает"
+        return f"{target}: фрииииииииз"
 
 class HealingSpell:
     def cast(self, target):
-        return f"{target}: восстанавливает здоровье"
+        return f"{target}: восстанавливает НР"
 
 if __name__ == "__main__":
     a = Account("0001", 1000, "1234")
