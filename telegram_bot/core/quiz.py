@@ -2,9 +2,9 @@ class Quiz:
     def __init__(self):
         self.questions = [
             {
-                "question": "Столица Франции?",
+                "question": "Столица Германии?",
                 "options": ["Берлин", "Париж", "Рим", "Мадрид"],
-                "correct": "Париж",
+                "correct": "Берлин",
                 "image": "images/france.jpg"
             },
             {
