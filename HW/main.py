@@ -48,7 +48,7 @@ class TodoApp:
 
         self.page.run_task(self.deadline_watcher)
 
-    # интерфэйс еее атай чорт
+    # интерфэйс 
     def build_ui(self):
         self.task_input = ft.TextField(label="Задача", expand=True)
 
@@ -376,4 +376,3 @@ def main(page: ft.Page):
 if __name__ == "__main__":
     ft.app(target=main)
 
-#АТАЙ НЕ КОПИРУЙ!!!!!!!!
