@@ -44,12 +44,12 @@ class RouletteApp:
 
     def _setup_audio(self):
         if fta is None:
-            self.ui.note.value = "Для звука установи: pip install flet-audio"
+            self.ui.note.value = "Бум"
             return
 
-        sound_path = Path(__file__).parent / "assets" / "sounds" / "shot.wav"
+        sound_path = Path(__file__).parent / "assets" / "sounds" / "shot.mp3"
         if not sound_path.exists():
-            self.ui.note.value = "Файл sounds/shot.wav не найден"
+            self.ui.note.value = "Файл sounds/shot.mp3 не найден"
             return
 
         self.shot_audio = fta.Audio(src="sounds/shot.mp3", autoplay=False, volume=1.0)
